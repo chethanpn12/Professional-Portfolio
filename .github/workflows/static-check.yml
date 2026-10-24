@@ -16,5 +16,6 @@ jobs:
           test -s index.html
           test -s styles.css
           test -s script.js
+          test -s resume.html
       - name: Check portfolio sections, anchors and basic accessibility hints
         run: python scripts/check_portfolio.py
