@@ -1,17 +1,33 @@
-# Professional Portfolio
-Responsive dark-mode portfolio for finance operations and analytics.
+# Chethan PN — Finance Analytics Portfolio
 
-## Focus
-Accounts Payable / Procure-to-Pay, SAP ECC / SAP HANA, Power BI, SQL, Alteryx and Python.
+A responsive, dark-mode career portfolio focused on Accounts Payable / Procure-to-Pay operations, process improvement, SAP, Power BI, SQL, Alteryx and Python.
 
-## Run locally
-Open `index.html` in a browser. No build system or API credentials required.
+## Preview locally
+Open `index.html` in a browser. The site is static and needs no build system, API key or server-side database.
 
-## Before publishing
-- Verify all experience metrics and achievement claims against your final resume.
-- Replace the email placeholder with your preferred professional email.
-- Add a resume PDF only after checking for confidential information.
-- Add only real project links and label unfinished projects accurately.
-- Do not include employer-confidential data.
+## Included
+- Career overview and operational performance highlights
+- AP/P2P, ERP, reporting and analytics skill areas
+- Volvo and Conduent process-improvement achievements
+- M.Com education
+- Project summaries for AP/P2P analytics, Gold Insights Hub and Indian Sector Seasonality Backtester
+- LinkedIn contact link
+- Responsive styling and a dependency-free static-check script
+- GitHub Actions workflow for static checks on pushes and pull requests
 
-This repository is a static portfolio starter; it has not been deployed.
+## Accuracy and privacy
+- The operational metrics and improvement outcomes are described as reported experience, not independently audited claims.
+- Employment dates and formal job titles are not shown because verified dates/titles were not available when this version was assembled.
+- No email address, resume file, private employer data, or credentials are published.
+- The Gold Insights Hub and backtesting entries are explicitly labelled as in progress; do not present them as production-complete projects.
+- Review this repository and its visibility before making the portfolio public.
+
+## Validation
+Run the local static checks with:
+```bash
+python scripts/check_portfolio.py
+```
+This verifies expected files, sections, internal anchors, title and responsive viewport metadata. It is not a full accessibility audit, browser test or deployment check.
+
+## Deployment
+The website has not been deployed. GitHub Pages or another host can be configured after you approve publishing the site publicly.
