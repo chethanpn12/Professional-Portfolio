@@ -5,7 +5,7 @@ import re
 import sys
 
 root = Path(__file__).resolve().parents[1]
-required = ("index.html", "styles.css", "script.js")
+required = ("index.html", "styles.css", "script.js", "resume.html")
 errors = []
 for name in required:
     path = root / name
