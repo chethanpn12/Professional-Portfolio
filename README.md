@@ -3,10 +3,11 @@
 A responsive, dark-mode career portfolio focused on Accounts Payable / Procure-to-Pay operations, process improvement, SAP, Power BI, SQL, Alteryx and Python.
 
 ## Preview locally
-Open `index.html` in a browser. The site is static and needs no build system, API key or server-side database.
+Open `index.html` in a browser. Use the Resume link and its Print / Save as PDF control to create a local PDF. The site is static and needs no build system, API key or server-side database.
 
 ## Included
 - Career overview and operational performance highlights
+- Printable resume page with browser print / save-as-PDF support
 - AP/P2P, ERP, reporting and analytics skill areas
 - Volvo and Conduent process-improvement achievements
 - M.Com education
