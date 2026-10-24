@@ -14,5 +14,5 @@ jobs:
           test -s index.html
           test -s styles.css
           test -s script.js
-          grep -q 'id="projects"' index.html
-          grep -q 'id="contact"' index.html
+      - name: Check portfolio sections, anchors and basic accessibility hints
+        run: python scripts/check_portfolio.py
